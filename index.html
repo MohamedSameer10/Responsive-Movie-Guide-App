@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Real Time Movie Guide WEB App | SamProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="movie-container">
+            <div class="search-section">
+                <input type="text" placeholder="Enter the Movie Name" id="moviename" required>
+                <button class="btn">Search</button>
+            </div>
+
+            <div class="movie-content">
+                <div class="error"></div>
+
+                <div class="content">
+                    <div class="movie">
+                        <img src="" id="poster" alt="MOVIE">
+                        <div class="text-content">
+                            <h2 id="movie-title"></h2>
+                            <div class="inline">
+                                <div id="language" class="language sec"></div>
+                                <div id="director" class="director sec"></div>
+                                <div id="writers" class="writers"></div>
+                            </div>
+                            <div class="rating"></div>
+                            <div class="year"> </div>
+                            <div class="review"></div>
+                        </div>
+                    </div>
+
+                    <div class="some-content">
+                        <div class="plot"></div>
+
+                        <div id="actors"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
