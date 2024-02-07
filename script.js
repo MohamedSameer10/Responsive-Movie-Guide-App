@@ -42,7 +42,7 @@ async function movieAPI() {
     else {
 
         const APIKey = `1ed153eb`
-        const APIURL = `http://www.omdbapi.com/?t=${movieName}&apikey=${APIKey}`
+        const APIURL = `https://www.omdbapi.com/?t=${movieName}&apikey=${APIKey}`
         const fetchingFromAPI = await fetch(APIURL)
         const responseFromAPI = await fetchingFromAPI.json()
 
